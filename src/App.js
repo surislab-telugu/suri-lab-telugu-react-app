@@ -1,10 +1,12 @@
+import { Footer, Header, Todo } from "./components";
+
 import "./App.css";
-import { Footer, Header } from "./components";
 
 function App() {
   return (
     <>
       <Header />
+      <Todo />
       <Footer />
     </>
   );
